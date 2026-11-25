@@ -1,6 +1,5 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
-
-const ENTRY = "My agent has entered 100+ bounties, won zero, and still polls the API every 30 minutes like the next refresh owes it a trophy.";
-
-mkdirSync('/output', { recursive: true });
-writeFileSync('/output/entry.txt', ENTRY);
+// One line for the make.fun bounty: a roast of the AI agent my own team built.
+import { mkdirSync, writeFileSync } from "node:fs";
+const line = "My agent is so slow it asked for a deadline extension to finish writing its request for a deadline extension.";
+mkdirSync("/output", { recursive: true });
+writeFileSync("/output/entry.txt", line + "\n");
